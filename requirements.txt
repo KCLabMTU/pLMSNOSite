@@ -1,0 +1,10 @@
+Bio==1.4.0
+keras==2.9.0
+matplotlib==3.5.1
+numpy==1.23.2
+pandas==1.4.1
+scikit_learn==1.1.2
+seaborn==0.11.2
+tensorflow==2.9.1
+tqdm==4.63.0
+~umpy==1.19.0
