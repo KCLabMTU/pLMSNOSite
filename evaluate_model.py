@@ -30,7 +30,10 @@ import time
 from random import randint
 
 def get_input_for_embedding(fasta_file):
-    # This is returning just integers to feed to embedding layer
+    """
+    input: fasta file with fixed window size
+    returns: integer encoding for all sequences 
+    """
     
     encodings = []
     
@@ -93,15 +96,17 @@ def extract_one_windows_position(protein_id,sequence,site_residue,site,window_si
     return section
 
 def load_all_models(model_names):
-    from keras import backend as K
-    all_models = list()
-    
-    for model in model_names:
-        filename = 'models/'+ model + '.h5'
-        model = load_model(filename, custom_objects={"K": K},compile = False)
-        all_models.append(model)
-        print('>loaded %s' % filename)
-    return all_models
+	"""
+	description: combines different pretrained models
+	"""
+	all_models = list()
+
+	for model in model_names:
+		filename = 'models/'+ model + '.h5'
+		model = load_model(filename, custom_objects={"K": K},compile = False)
+		all_models.append(model)
+		print('>loaded %s' % filename)
+	return all_models
 
 def get_predictions(model,data):
         print('\n')
