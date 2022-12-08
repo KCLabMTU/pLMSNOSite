@@ -76,13 +76,13 @@ def extract_one_windows_position(protein_id,sequence,site_residue,site,window_si
     half_window = int((window_size-1)//2)
     
     if(sequence is None):
-        print('No sequence for [protein_id,site_residue,window_size] ='+str([protein_id,site_residue,window_size]))
+        print('No sequence for [protein_id,site_residue,window_size] ='+str([protein_id, site_residue,window_size]))
         return 0
     else:
         seq_length = len(sequence)
     
     if(sequence[site-1] != site_residue): # check if site_residue at position site is valid
-        print('Given site-residue and site does not match [protein_id,site_residue, site] ='+str([protein_id,site_residue,site]))
+        print('Given site-residue and site does not match [protein_id,site_residue, site] ='+str([protein_id, site_residue,site]))
         return 0
     
     
