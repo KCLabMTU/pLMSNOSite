@@ -1,16 +1,38 @@
 # pLMSNOSite
 An ensemble-based approach for predicting protein S-nitrosylation sites by integrating supervised word embedding and embedding from pre-trained protein language model
 
-Pawel Pratyush<sup>1</sup>, Suresh Pokharel1, Hiroto Saigo2, Dukka B KC1*
-1.     Department of Computer Science, Michigan Technological University, Houghton, MI, USA.
-2.     Department of Electrical Engineering and Computer Science, Kyushu University, 744, Motooka, Nishi-ku, 819-0395, Japan
+## Authors
+Pawel Pratyush<sup>1</sup>, Suresh Pokharel<sup>1</sup>, Hiroto Saigo<sup>2</sup>, Dukka B KC<sup>1*</sup>
+<br>
+<sup>1</sup>Department of Computer Science, Michigan Technological University, Houghton, MI, USA.
+<br>
+<sup>2</sup>Department of Electrical Engineering and Computer Science, Kyushu University, 744, Motooka, Nishi-ku, 819-0395, Japan
 
-*  Corresponding Author: dbkc@mtu.edu
-
+<sup>*</sup> Corresponding Author: dbkc@mtu.edu
 
 ## Install Libraries
+Python version: `3.9.7`
+
+Install from requirement.txt: 
 <code>
 pip install -r requirements.txt
+</code>
+
+Required libraries and versions: 
+<code>
+Bio==1.5.2
+keras==2.9.0
+matplotlib==3.5.1
+numpy==1.23.5
+pandas==1.5.0
+requests==2.27.1
+scikit_learn==1.2.0
+seaborn==0.11.2
+tensorflow==2.9.1
+torch==1.11.0
+tqdm==4.63.0
+transformers==4.18.0
+xgboost==1.5.0
 </code>
 
 ## Install Transformers
