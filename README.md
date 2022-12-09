@@ -53,7 +53,7 @@ To evaluate our model on the independent test set, we have already placed the te
 
 ## Training and other experiments
 1. Find training data at `data/train/` folder
-2. Find all the codes and models related to training at `training_experiments` folder.
+2. Find all the codes and models related to training at `training_experiments` folder (To be updated).
 
 
 ## Contact
