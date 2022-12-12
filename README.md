@@ -42,6 +42,7 @@ pip install -q SentencePiece transformers
 
 ## Evaluate pLMSNOSite on Independent Test Set
 To evaluate our model on the independent test set, we have already placed the test sequences and corresponding ProtT5 features in `data/test/` folder. After installing all the requirements, run the following command:
+<br>
 <code>
  python evaluate_model.py
 </code>
@@ -57,7 +58,4 @@ To evaluate our model on the independent test set, we have already placed the te
 
 
 ## Contact
-For any type of inquiry related to this work, please send an email to these addresses:
-1. dbkc@mtu.edu
-2. ppratyush@mtu.edu
-3. sureshp@mtu.edu
+For any type of inquiry related to this work, please send an email to dbkc@mtu.edu (CC: ppratyush@mtu.edu and sureshp@mtu.edu).
