@@ -1,6 +1,8 @@
-<p align="center">
- <h1>pLMSNOSite</h1>
-</p>
+<div align="center">
+
+# pLMSNOSite
+
+</div>
 
  <p align="center">
 An ensemble-based approach for predicting protein S-nitrosylation sites by integrating supervised word embedding and embedding from pre-trained protein language model
