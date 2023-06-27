@@ -1,6 +1,7 @@
- <p align="center">
- <img src="images/Screenshot from 2023-06-26 15-47-02.png"/> 
- </p>
+<p align="center">
+ <img src="images/Screenshot from 2023-06-26 15-47-02.png" width="500" height="300"/> 
+</p>
+
 <p align="center">
 An ensemble-based approach for predicting protein S-nitrosylation sites by integrating supervised word embedding and embedding from pre-trained protein language model
 </p>
