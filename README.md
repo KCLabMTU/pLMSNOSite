@@ -23,12 +23,11 @@ An ensemble-based approach for predicting protein S-nitrosylation sites by integ
 <a href="https://tqdm.github.io/"><img alt="tqdm" src="https://img.shields.io/badge/tqdm-4.63.0-blue.svg"/></a>
 <a href="https://xgboost.readthedocs.io/en/latest/"><img alt="xgboost" src="https://img.shields.io/badge/xgboost-1.5.0-purple.svg"/></a>
 
-
  
 </p>
 
 ## About
-pLMSNOSite is a robust predictor of S-nitrosylation modification sites in protein sequences. It employs an intermediate-fusion based stacked generalization approach to harness the representational power of embeddings obtained from protein language model trained on full sequence combined with supervised word embedding layer trained on window sequence.
+pLMSNOSite is a robust predictor of S-nitrosylation modification sites in protein sequences. It employs an intermediate-fusion based stacked generalization approach to harness the representational power of embeddings obtained from transformer protein language model trained on full sequence combined with supervised word embedding layer trained on window sequence.
 
 ## Cite this article
 Pratyush, P., Pokharel, S., Saigo, H. et al. pLMSNOSite: an ensemble-based approach for predicting protein S-nitrosylation sites by integrating supervised word embedding and embedding from pre-trained protein language model. BMC Bioinformatics 24, 41 (2023). https://doi.org/10.1186/s12859-023-05164-9
@@ -41,6 +40,11 @@ Pawel Pratyush<sup>1</sup>, Suresh Pokharel<sup>1</sup>, Hiroto Saigo<sup>2</sup
 <sup>2</sup>Department of Electrical Engineering and Computer Science, Kyushu University, 744, Motooka, Nishi-ku, 819-0395, Japan
 
 <sup>*</sup> Corresponding Author: dbkc@mtu.edu
+
+## Webserver
+
+You can access our webserver at [kcdukkalab.org/pLMSNOSite/](http://kcdukkalab.org/pLMSNOSite/).
+
 
 ## Install Libraries
 Python version: `3.9.7`
