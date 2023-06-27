@@ -10,7 +10,7 @@ An ensemble-based approach for predicting protein S-nitrosylation sites by integ
  
 ---
 <p align="center">
-<img src="images/Screenshot from 2023-06-22 15-40-37.png"/> 
+<img src="images/Screenshot from 2023-06-22 15-32-45.png"/> 
 </p>
 
 <p align="center">
