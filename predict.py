@@ -1,9 +1,3 @@
-""" 
-      Author  : Suresh Pokharel
-      Email   : sureshp@mtu.edu
-"""
-
-
 """
 import required libraries
 """
@@ -151,8 +145,8 @@ for seq_record in tqdm(SeqIO.parse(input_fasta_file, "fasta")):
     # generate embedding features and window for each amino acid in sequence
     for index, amino_acid in enumerate(sequence):
         
-        # check if AA is 'N'
-        if amino_acid in ['N']:
+        # check if AA is 'C' (cysteine)
+        if amino_acid in ['C']:
             site = index + 1
 
             # extract window
