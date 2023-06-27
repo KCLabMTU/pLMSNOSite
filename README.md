@@ -7,8 +7,9 @@ An ensemble-based approach for predicting protein S-nitrosylation sites by integ
 </p>
 
 <p align="center">
-
-<a href="https://github.com/facebook/jest"><img alt="jest" src="https://img.shields.io/badge/Python-3.9.7-blue.svg"/></a>
+<a href="https://www.python.org/"><img alt="jest" src="https://img.shields.io/badge/Python-3.9.7-blue.svg"/></a>
+<a href="https://www.tensorflow.org/"><img alt="jest" src="https://img.shields.io/badge/TensorFlow-2.9.1-orange.svg"/></a>
+ 
 </p>
 
 ## About
