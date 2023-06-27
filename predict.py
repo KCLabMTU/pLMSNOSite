@@ -27,7 +27,7 @@ define file paths and other parameters
 input_fasta_file = "input/sequence.fasta" # load test sequence
 output_csv_file = "output/results.csv" 
 model_path = 'models/pLMSNOSite.h5'
-win_size = 37
+win_size = 37 #window size found using k-fold CV
 
 
 """
@@ -168,7 +168,7 @@ for seq_record in tqdm(SeqIO.parse(input_fasta_file, "fasta")):
             y_pred = combined_model.predict(X_stacked_test, verbose = 0)[0][0]
 
             # append results to results_df
-            results_df.loc[len(results_df)] = [prot_id, site, amino_acid, y_pred, int(y_pred > 0.5)]
+            results_df.loc[len(results_df)] = [prot_id, site, amino_acid, y_pred, int(y_pred > 0.5)]  #decision threshold cut-off is 0.5. You can change it a/c to your need
 
 # Export results 
 print('Saving results ...')
