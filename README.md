@@ -1,3 +1,5 @@
+![Example Image](./images/Screenshot from 2023-06-22 15-40-37.png)
+
 ## About pLMNOSite
 pLMSNOSite is a robust predictor of S-nitrosylation modification sites in protein sequences. It employs an intermediate-fusion based stacked generalization approach to harness the representational power of embeddings obtained from protein language model trained on full sequence combined with supervised word embedding layer trained on window sequence.
 
