@@ -1,5 +1,5 @@
  <p align="center">
- <img src="images/Screenshot from 2023-06-26 15-47-02.png" width="210" height="90"/> 
+ pLMSNOSite
  </p>
 
  <p align="center">
