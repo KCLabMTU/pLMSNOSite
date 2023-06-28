@@ -6,7 +6,7 @@
 
 
  <p align="center">
- Use transformer-based Protein Language Model (pLM) for prediction of S-nitrosylation modification sites in protein sequences🧬.
+ Use transformer-based Protein Language Model (pLM) for prediction of S-nitrosylation modification sites in protein sequences🧬
  </p>
  
 ---
