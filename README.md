@@ -128,7 +128,7 @@ The prediction runtime is directly proportional to the input sequence length. As
 ## Collaboration  :handshake: 
 <p>
   <a href="https://www.mtu.edu/">
-    <img src="images/mtu_logo.png" alt="MTU Logo" width="120" height="100">
+    <img src="images/mtu_logo.png" alt="MTU Logo" width="130" height="100">
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.kyushu-u.ac.jp/en/">
