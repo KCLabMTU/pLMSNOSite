@@ -56,6 +56,8 @@ Pawel Pratyush<sup>1</sup>, Suresh Pokharel<sup>1</sup>, Hiroto Saigo<sup>2</sup
 
 <sup>*</sup> Corresponding Author: dbkc@mtu.edu
 
+## Download/Clone the repository
+Clone the repository: git clone git@github.com:KCLabMTU/pLMSNOSite.git or download [https://github.com/KCLabMTU/LMSuccSite](https://github.com/KCLabMTU/pLMSNOSite.git)
 
 ## Install Libraries
 Python version: `3.9.7`
