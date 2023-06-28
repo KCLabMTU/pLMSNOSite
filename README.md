@@ -29,6 +29,10 @@ An ensemble-based approach for predicting protein S-nitrosylation sites by integ
 <a href="https://seaborn.pydata.org/"><img alt="seaborn" src="https://img.shields.io/badge/seaborn-0.11.2-lightgrey.svg"/></a>
 <a href="https://tqdm.github.io/"><img alt="tqdm" src="https://img.shields.io/badge/tqdm-4.63.0-blue.svg"/></a>
 <a href="https://xgboost.readthedocs.io/en/latest/"><img alt="xgboost" src="https://img.shields.io/badge/xgboost-1.5.0-purple.svg"/></a>
+<a href="https://github.com/KCLabMTU/pLMSNOSite/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KCLabMTU/pLMSNOSite.svg?style=flat&color=blue"></a>
+<a href="https://github.com/KCLabMTU/pLMSNOSite/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/KCLabMTU/pLMSNOSite.svg?style=flat&color=blue"></a>
+<a href="https://github.com/KCLabMTU/pLMSNOSite/pulls"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/KCLabMTU/pLMSNOSite.svg?style=flat&color=blue"></a>
+
 
  <!-- Commits Badge -->
 ![GitHub last commit](https://img.shields.io/github/last-commit/KCLabMTU/pLMSNOSite)
