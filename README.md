@@ -73,12 +73,14 @@ Alternatively, if you don't have Git or prefer not to use it, you can download t
 Note: In the 'Download the Repository' section, the link provided is a direct download link to the repository's `main` branch as a zip file. This may differ if your repository's default branch is named differently.
 
 ## Install Libraries
+
 Python version: `3.9.7`
 
-Install from requirement.txt: 
-<code>
+To install the required libraries, run the following command:
+
+```shell
 pip install -r requirements.txt
-</code>
+```
 
 Required libraries and versions: 
 <code>
@@ -98,16 +100,15 @@ xgboost==1.5.0
 </code>
 
 ## Install Transformers
-<code>
+```shell
 pip install -q SentencePiece transformers
-</code>
-
+```
 ## Evaluate pLMSNOSite on Independent Test Set
 To evaluate our model on the independent test set, we have already placed the test sequences and corresponding ProtT5 features in `data/test/` folder. After installing all the requirements, run the following command:
 <br>
-<code>
+```shell
  python evaluate_model.py
-</code>
+```
 
 ## Predict Nitrosylation in your own sequence
 1. Place the fasta file in `input/sequence.fasta`
