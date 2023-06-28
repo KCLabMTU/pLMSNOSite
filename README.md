@@ -38,7 +38,7 @@
 </p>
 
 ##  About
-pLMSNOSite is a robust predictor of S-nitrosylation modification sites in protein sequences. It employs an intermediate-fusion-based stacked generalization approach to harness the representational power of global contextual embeddings obtained from a transformer protein language model combined with local contextual embeddings from the supervised word embedding layer.
+pLMSNOSite is a robust predictor of S-nitrosylation modification sites in protein sequences. It employs an intermediate-fusion-based stacked generalization approach to harness the representational power of global contextual embeddings obtained from a transformer protein language model called `ProtT5-XL-UniRef50` combined with local contextual embeddings from the supervised word embedding layer.
 
 ## Webserver  :globe_with_meridians:
 
