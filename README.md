@@ -108,7 +108,7 @@ The prediction runtime is directly proportional to the input sequence length. As
 
 ## Collaboration
 <p>
-<img src="images/mtu.png"/ width="80" height="100"> <img src="images/Kyushu_University_Logo-586x700.png"/ width="100" height="100">
+<img src="images/mtu.png"/ width="80" height="100">   <img src="images/Kyushu_University_Logo-586x700.png"/ width="100" height="100">
 </p>
 
 ## Funding 
