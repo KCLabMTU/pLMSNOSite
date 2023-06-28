@@ -134,7 +134,7 @@ The prediction runtime is directly proportional to the input sequence length. As
 ## Funding 
 <p>
 <a href="https://www.nsf.gov/"><img src="images/NSF_Official_logo.svg" width="100" height="100"></a>
-<a href="https://www.jsps.go.jp/english/"><img src="images/JSPS-logo.jpg" width="150" height="70"></a>
+<a href="https://www.jsps.go.jp/english/"><img src="images/JSPS-logo.jpg" width="180" height="70"></a>
 </p>
 
 
