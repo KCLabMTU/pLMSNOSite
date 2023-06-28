@@ -56,7 +56,7 @@ Pawel Pratyush<sup>1</sup>, Suresh Pokharel<sup>1</sup>, Hiroto Saigo<sup>2</sup
 
 <sup>*</sup> Corresponding Author: dbkc@mtu.edu
 
-## Download/Clone the repository
+## Clone/Download the repository
 Clone the repository: 
 <code>
 git clone git@github.com:KCLabMTU/pLMSNOSite.git
