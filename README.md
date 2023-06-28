@@ -56,7 +56,7 @@ Pawel Pratyush<sup>1</sup>, Suresh Pokharel<sup>1</sup>, Hiroto Saigo<sup>2</sup
 
 <sup>*</sup> Corresponding Author: dbkc@mtu.edu
 
-## Getting Started
+## :rocket: Getting Started
 
 To get a local copy of the repository, you can either clone it or download it directly from GitHub.
 
