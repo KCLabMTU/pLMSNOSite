@@ -99,7 +99,7 @@ To evaluate our model on the independent test set, we have already placed the te
 2. Find all the codes and models related to training at `training_experiments` folder (To be updated).
 
 ## Note
-The prediction runtime is directly proportional to the input sequence length. As sequence length increases, the time required for pLMs to extract feature vectors correspondingly extends.
+The prediction runtime is directly proportional to the input sequence length. As sequence length increases, the time required for ProtT5 to generate feature vectors also increases.
 
 ## Contact
 For any type of inquiry related to this work, please send an email to dbkc@mtu.edu (CC: ppratyush@mtu.edu and sureshp@mtu.edu).
