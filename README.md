@@ -111,5 +111,10 @@ The prediction runtime is directly proportional to the input sequence length. As
 <img src="images/mtu.png"/ width="100" height="100"> <img src="images/Kyushu_University_Logo-586x700.png"/ width="100" height="100">
 </p>
 
+## Funding 
+<p>
+<img src="images/NSF_Official_logo.svg"/ width="100" height="100"> <img src="images/JSPS-logo.png"/ width="100" height="100">
+</p>
+
 ## Contact
 For any type of inquiry related to this work, please send an email to dbkc@mtu.edu (CC: ppratyush@mtu.edu and sureshp@mtu.edu).
