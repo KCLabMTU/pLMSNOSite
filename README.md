@@ -34,15 +34,6 @@ An ensemble-based approach for predicting protein S-nitrosylation sites by integ
 <a href="https://github.com/KCLabMTU/pLMSNOSite/pulls"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/KCLabMTU/pLMSNOSite.svg?style=flat&color=blue"></a>
 
 
- <!-- Commits Badge -->
-![GitHub last commit](https://img.shields.io/github/last-commit/KCLabMTU/pLMSNOSite)
-
-<!-- License Badge -->
-![GitHub](https://img.shields.io/github/license/KCLabMTU/pLMSNOSite)
-
-<!-- PRs Badge -->
-![GitHub pull requests](https://img.shields.io/github/issues-pr/KCLabMTU/pLMSNOSite)
-
  
 </p>
 
