@@ -47,7 +47,7 @@ You can access the webserver of pLMSNOSite at [kcdukkalab.org/pLMSNOSite/](http:
 ## Cite this article
 Pratyush, P., Pokharel, S., Saigo, H. et al. pLMSNOSite: an ensemble-based approach for predicting protein S-nitrosylation sites by integrating supervised word embedding and embedding from pre-trained protein language model. BMC Bioinformatics 24, 41 (2023). https://doi.org/10.1186/s12859-023-05164-9
 
-## :writing_hand:Authors
+## Authors:writing_hand:
 Pawel Pratyush<sup>1</sup>, Suresh Pokharel<sup>1</sup>, Hiroto Saigo<sup>2</sup>, Dukka B KC<sup>1*</sup>
 <br>
 <sup>1</sup>Department of Computer Science, Michigan Technological University, Houghton, MI, USA.
@@ -122,10 +122,10 @@ To evaluate our model on the independent test set, we have already placed the te
 1. Find training data at `data/train/` folder
 2. Find all the codes and models related to training at `training_experiments` folder (To be updated).
 
-## Notes
+## Notes :mailbox: 
 The prediction runtime is directly proportional to the input sequence length. As sequence length increases, the time required for ProtT5 to generate feature vectors also increases.
 
-## :handshake: Collaboration
+## Collaboration:handshake: 
 <p>
 <a href="https://www.mtu.edu/"><img src="images/mtu.png" width="80" height="100"></a>
 <a href="https://www.kyushu-u.ac.jp/en/"><img src="images/Kyushu_University_Logo-586x700.png" width="100" height="100"></a>
@@ -138,5 +138,5 @@ The prediction runtime is directly proportional to the input sequence length. As
 </p>
 
 
-## :mailbox: Contact
+## Contact:mailbox: 
 For any type of inquiry related to this work, please send an email to dbkc@mtu.edu (CC: ppratyush@mtu.edu and sureshp@mtu.edu).
