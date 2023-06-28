@@ -125,7 +125,7 @@ To evaluate our model on the independent test set, we have already placed the te
 ## Notes  :memo: 
 The prediction runtime is directly proportional to the input sequence length. As sequence length increases, the time required for ProtT5 to generate feature vectors also increases.
 
-## Collaboration:handshake: 
+## Collaboration  :handshake: 
 <p>
 <a href="https://www.mtu.edu/"><img src="images/mtu.png" width="80" height="100"></a>
 <a href="https://www.kyushu-u.ac.jp/en/"><img src="images/Kyushu_University_Logo-586x700.png" width="100" height="100"></a>
@@ -138,5 +138,5 @@ The prediction runtime is directly proportional to the input sequence length. As
 </p>
 
 
-## Contact:mailbox: 
+## Contact  :mailbox: 
 For any type of inquiry related to this work, please send an email to dbkc@mtu.edu (CC: ppratyush@mtu.edu and sureshp@mtu.edu).
