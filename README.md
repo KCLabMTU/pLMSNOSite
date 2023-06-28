@@ -56,14 +56,17 @@ Pawel Pratyush<sup>1</sup>, Suresh Pokharel<sup>1</sup>, Hiroto Saigo<sup>2</sup
 
 <sup>*</sup> Corresponding Author: dbkc@mtu.edu
 
-## Clone/Download the repository
-Clone the repository: 
-<code>
+## Getting Started
+
+To get a local copy of the repository, you can either clone it or download it directly from GitHub.
+
+### Clone the Repository
+
+If you have Git installed on your system, you can clone the repository by running the following command in your terminal:
+
+```shell
 git clone git@github.com:KCLabMTU/pLMSNOSite.git
-</code> or 
-download <code> 
-https://github.com/KCLabMTU/pLMSNOSite.git
-</code>
+
 
 ## Install Libraries
 Python version: `3.9.7`
