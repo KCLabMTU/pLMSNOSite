@@ -132,7 +132,7 @@ The prediction runtime is directly proportional to the input sequence length. As
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.kyushu-u.ac.jp/en/">
-    <img src="images/Kyushu_University_Logo-586x700.png" alt="Kyushu University Logo" width="100" height="100">
+    <img src="images/Kyushu_University_Logo-586x700.png" alt="Kyushu University Logo" width="100" height="110">
   </a>
 </p>
 
