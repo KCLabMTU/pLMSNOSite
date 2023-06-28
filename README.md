@@ -68,7 +68,7 @@ If you have Git installed on your system, you can clone the repository by runnin
 git clone git@github.com:KCLabMTU/pLMSNOSite.git
 ```
 ### Download the Repository
-[Alternatively, if you don't have Git or prefer not to use it, you can download the repository directly from GitHub. Click here to download the repository as a zip file](https://github.com/KCLabMTU/pLMSNOSite/archive/refs/heads/main.zip)
+Alternatively, if you don't have Git or prefer not to use it, you can download the repository directly from GitHub. Click [here](https://github.com/KCLabMTU/pLMSNOSite/archive/refs/heads/main.zip) to download the repository as a zip file.
 
 Note: In the 'Download the Repository' section, the link provided is a direct download link to the repository's `main` branch as a zip file. This may differ if your repository's default branch is named differently.
 
