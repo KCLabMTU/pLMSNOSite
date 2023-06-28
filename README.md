@@ -6,7 +6,7 @@
 
 
  <p align="center">
-An ensemble-based approach for predicting protein S-nitrosylation sites by integrating supervised word embedding and embedding from pre-trained protein language model
+Use transformer-based Protein Language Model(pLM) for S-nitrosylation modification sites in proteins. 
  </p>
  
 ---
