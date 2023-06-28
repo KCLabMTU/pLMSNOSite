@@ -37,10 +37,10 @@ An ensemble-based approach for predicting protein S-nitrosylation sites by integ
  
 </p>
 
-##  About  💡
+##  About
 pLMSNOSite is a robust predictor of S-nitrosylation modification sites in protein sequences. It employs an intermediate-fusion-based stacked generalization approach to harness the representational power of global contextual embeddings obtained from a transformer protein language model combined with local contextual embeddings from the supervised word embedding layer.
 
-## :globe_with_meridians:Webserver
+## Webserver:globe_with_meridians:
 
 You can access the webserver of pLMSNOSite at [kcdukkalab.org/pLMSNOSite/](http://kcdukkalab.org/pLMSNOSite/).
 
