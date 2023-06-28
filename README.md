@@ -67,6 +67,10 @@ If you have Git installed on your system, you can clone the repository by runnin
 ```shell
 git clone git@github.com:KCLabMTU/pLMSNOSite.git
 
+Download the Repository
+Alternatively, if you don't have Git or prefer not to use it, you can directly download the repository from GitHub. Click here to download.
+
+Note: In the 'Download the Repository' section, the link provided is a direct download link to the repository's `main` branch as a zip file. This may differ if your repository's default branch is named differently.
 
 ## Install Libraries
 Python version: `3.9.7`
