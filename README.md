@@ -110,9 +110,12 @@ To evaluate our model on the independent test set, we have already placed the te
  python evaluate_model.py
 ```
 
-## Predict Nitrosylation in your own sequence
-1. Place the fasta file in `input/sequence.fasta`
-2. run `python predict.py`
+## Predict S-Nitrosylation modification in your own sequence
+1. Place your FASTA file in the `input/sequence.fasta` directory.
+2. Run the following command:
+   ```shell
+   python predict.py
+   ```
 3. Find the results at `output/` folder.
 
 ## Training and other experiments
