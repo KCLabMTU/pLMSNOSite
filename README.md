@@ -37,17 +37,17 @@ An ensemble-based approach for predicting protein S-nitrosylation sites by integ
  
 </p>
 
-## About
+## : Lightbulb: About
 pLMSNOSite is a robust predictor of S-nitrosylation modification sites in protein sequences. It employs an intermediate-fusion-based stacked generalization approach to harness the representational power of global contextual embeddings obtained from a transformer protein language model combined with local contextual embeddings from the supervised word embedding layer.
 
-## Webserver
+## :globe_with_meridians:Webserver
 
 You can access the webserver of pLMSNOSite at [kcdukkalab.org/pLMSNOSite/](http://kcdukkalab.org/pLMSNOSite/).
 
 ## Cite this article
 Pratyush, P., Pokharel, S., Saigo, H. et al. pLMSNOSite: an ensemble-based approach for predicting protein S-nitrosylation sites by integrating supervised word embedding and embedding from pre-trained protein language model. BMC Bioinformatics 24, 41 (2023). https://doi.org/10.1186/s12859-023-05164-9
 
-## Authors
+## :writing_hand:Authors
 Pawel Pratyush<sup>1</sup>, Suresh Pokharel<sup>1</sup>, Hiroto Saigo<sup>2</sup>, Dukka B KC<sup>1*</sup>
 <br>
 <sup>1</sup>Department of Computer Science, Michigan Technological University, Houghton, MI, USA.
@@ -125,7 +125,7 @@ To evaluate our model on the independent test set, we have already placed the te
 ## Notes
 The prediction runtime is directly proportional to the input sequence length. As sequence length increases, the time required for ProtT5 to generate feature vectors also increases.
 
-## Collaboration
+## :handshake: Collaboration
 <p>
 <a href="https://www.mtu.edu/"><img src="images/mtu.png" width="80" height="100"></a>
 <a href="https://www.kyushu-u.ac.jp/en/"><img src="images/Kyushu_University_Logo-586x700.png" width="100" height="100"></a>
@@ -138,5 +138,5 @@ The prediction runtime is directly proportional to the input sequence length. As
 </p>
 
 
-## Contact
+## :mailbox: Contact
 For any type of inquiry related to this work, please send an email to dbkc@mtu.edu (CC: ppratyush@mtu.edu and sureshp@mtu.edu).
