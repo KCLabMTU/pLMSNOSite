@@ -127,15 +127,26 @@ The prediction runtime is directly proportional to the input sequence length. As
 
 ## Collaboration  :handshake: 
 <p>
-<a href="https://www.mtu.edu/"><img src="images/mtu.png" width="80" height="100"></a>
-<a href="https://www.kyushu-u.ac.jp/en/"><img src="images/Kyushu_University_Logo-586x700.png" width="100" height="100"></a>
+  <a href="https://www.mtu.edu/">
+    <img src="images/mtu.png" alt="MTU Logo" width="80" height="100">
+  </a>
+  <a href="https://www.kyushu-u.ac.jp/en/">
+    <img src="images/Kyushu_University_Logo-586x700.png" alt="Kyushu University Logo" width="100" height="100">
+  </a>
 </p>
+
 
 ## Funding 
 <p>
-<a href="https://www.nsf.gov/"><img src="images/NSF_Official_logo.svg" width="110" height="110"></a>
-<a href="https://www.jsps.go.jp/english/"><img src="images/JSPS-logo.jpg" width="180" height="70"></a>
+  <a href="https://www.nsf.gov/">
+    <img src="images/NSF_Official_logo.svg" alt="NSF Logo" width="110" height="110" style="margin-right: 20px;">
+  </a>
+  <a href="https://www.jsps.go.jp/english/">
+    <img src="images/JSPS-logo.jpg" alt="JSPS Logo" width="180" height="70" style="margin-left: 20px;">
+  </a>
 </p>
+
+
 
 
 ## Contact  :mailbox: 
