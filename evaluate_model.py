@@ -4,9 +4,9 @@ from Bio import SeqIO
 import os
 import numpy as np
 from sklearn.utils import shuffle
-from sklearn.model_selection import train_test_split,StratifiedKFold
+from sklearn.model_selection import train_test_split, StratifiedKFold
 from tensorflow.keras.models import Model, Sequential, load_model
-from tensorflow.keras.layers import Conv2D,Embedding, MaxPooling2D, Conv1D, Dense, MaxPooling1D, Input, Flatten, LSTM, Dropout, Bidirectional,Normalization, Flatten, Reshape, Lambda, LeakyReLU
+from tensorflow.keras.layers import Conv2D, Embedding, MaxPooling2D, Conv1D, Dense, MaxPooling1D, Input, Flatten, LSTM, Dropout, Bidirectional, Normalization, Flatten, Reshape, Lambda, LeakyReLU
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.utils import plot_model
 from tensorflow.keras.losses import BinaryCrossentropy
@@ -37,7 +37,7 @@ def get_input_for_embedding(fasta_file):
     
     encodings = []
     
-    # define universe of possible input values
+    # define the universe of possible input values
     alphabet = 'ARNDCQEGHILKMFPSTWYVUX-'
     
     # define a mapping of chars to integers
@@ -126,7 +126,7 @@ def get_predictions(model,data):
 # size of the fragment
 win_size=37
 
-# load pretrained model
+# load pre-trained model
 filename = 'models/pLMSNOSite.h5'
 model_final = load_model(filename, custom_objects={"K": K},compile = False)
 
@@ -157,7 +157,7 @@ y_stacked_test = y_test
 
 # evaluate loaded model on test data
 y_pred = model_final.predict(X_stacked_test)
-y_pred = (y_pred > 0.50)
+y_pred = (y_pred > 0.50) #decision threshold here is 0.5 
 y_pred = np.array(y_pred)
 
 mcc=matthews_corrcoef(y_stacked_test, y_pred)
