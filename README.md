@@ -40,6 +40,25 @@
 ##  About
 pLMSNOSite is a robust predictor of S-nitrosylation modification sites in protein sequences. It employs an intermediate-fusion-based stacked generalization approach to harness the representational power of global contextual embeddings obtained from a transformer protein language model called `ProtT5-XL-UniRef50` combined with local contextual embeddings from the supervised word embedding layer.
 
+### About `ProtT5-XL-UniRef50`
+`ProtT5-XL-UniRef50` is a transformer-based protein language model that was developed by Google's DeepMind. This model is built on the T5 (Text-to-Text Transfer Transformer) architecture. Using the Masked Language Modelling (MLM) objective, ProtT5 was trained on the UniRef50 dataset (consisting of 45 million protein sequences) in a self-supervised fashion. This comprehensive training allows the model to effectively capture and understand the context within protein sequences, proving valuable for tasks like predicting PTM sites. More details about it are as follows:
+| ProT5-XL-UniRef50     | Value               |
+|-----------------------|---------------------|
+| Dataset               | UniRef50            |
+| Number of Layers      | 24                  |
+| Hidden Layer Size     | 1024                |
+| Intermediate Size     | 65536               |
+| Number of Heads       | 16                  |
+| Dropout               | 0.1                 |
+| Target Length         | 512                 |
+| Masking Probability   | 15%                 |
+| Local Batch Size      | 84                  |
+| Global Batch Size     | 4096                |
+| Optimizer             | AdaFactor           |
+| Learning Rate         | 0.01                |
+| Weight Decay          | 0.0                 |
+| Number of Parameters  | 3B                  |
+
 ## Webserver  :globe_with_meridians:
 
 You can access the webserver of pLMSNOSite at [kcdukkalab.org/pLMSNOSite/](http://kcdukkalab.org/pLMSNOSite/).
