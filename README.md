@@ -168,4 +168,11 @@ To evaluate our model on the independent test set, we have already placed the te
 
 
 ## Contact  :mailbox: 
-For any type of inquiry related to this work, please send an email to dbkc@mtu.edu (CC: ppratyush@mtu.edu and sureshp@mtu.edu).
+Should you have any inquiries related to this project, please feel free to reach out via email. Kindly CC all of the following recipients in your communication for a swift response:
+
+- Main Contact: [dbkc@mtu.edu](mailto:dbkc@mtu.edu)
+- CC: [ppratyush@mtu.edu](mailto:ppratyush@mtu.edu)
+- CC: [sureshp@mtu.edu](mailto:sureshp@mtu.edu)
+
+We look forward to addressing your queries and concerns.
+
