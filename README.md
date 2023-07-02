@@ -83,7 +83,6 @@ pip install -r requirements.txt
 ```
 
 Required libraries and versions: 
-
 <code>
 Bio==1.5.2
 keras==2.9.0
@@ -125,7 +124,7 @@ To evaluate our model on the independent test set, we have already placed the te
 
 ## Notes  :memo: 
 1. The prediction runtime directly depends on the length of the input sequence. Longer sequences require more time for ProtT5 to generate feature vectors, and consequently, more time is needed for prediction.
-2. Modifying the decision threshold cut-off value is simple and straightforward to meet your specific requirements. All you need to do is go to the predict.py file and locate line 172. Here, you can easily change the current cut-off value of 0.5 to any desired cut-off value of your preference.
+2. Modifying the decision threshold cut-off value is simple and straightforward to meet your specific requirements. All you need to do is go to the `predict.py` file and locate line `172`. Here, you can easily change the current cut-off value of `0.5` to any desired cut-off value of your preference.
 
 ## Collaboration  :handshake: 
 <p>
