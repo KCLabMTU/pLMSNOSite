@@ -42,15 +42,10 @@ pLMSNOSite is a robust predictor of S-nitrosylation modification sites in protei
 
 ### About `ProtT5-XL-UniRef50`
 `ProtT5-XL-UniRef50` is a transformer-based protein language model that was developed by Google's DeepMind. This model is built on the T5 (Text-to-Text Transfer Transformer) architecture. Using the Masked Language Modelling (MLM) objective, ProtT5 was trained on the UniRef50 dataset (consisting of 45 million protein sequences) in a self-supervised fashion. This comprehensive training allows the model to effectively capture and understand the context within protein sequences, proving valuable for tasks like predicting PTM sites. More details about it are as follows:
-|Parameters     | Value               |
-|-----------------------|---------------------|
-| Dataset               | UniRef50            |
-| Number of Layers      | 24                  |
-| Hidden Layer Size     | 1024                |
-| Intermediate Size     | 65536               |
-| Number of Heads       | 16                  |
-| Masking Probability   | 15%                 |
-| Number of Parameters  | 3B                  |
+| Dataset | No. of Layers | Hidden Layer Size | Intermediate Size | No. of Heads | Dropout | Target Length | Masking Probability | Local Batch Size | Global Batch Size | Optimizer | Learning Rate | Weight Decay | Training Steps | Warm-up Steps | Mixed Precision | No. of Parameters | System | No. of Nodes | No. of GPUs/TPUs |
+|---------|---------------|-------------------|-------------------|--------------|---------|---------------|---------------------|------------------|-------------------|-----------|---------------|--------------|----------------|---------------|-----------------|------------------|--------|--------------|-----------------|
+| UniRef50 | 24 | 1024 | 65536 | 16 | 0.1 | 512 | 15% | 84 | 4096 | AdaFactor | 0.01 | 0.0 | 400K/400K | 40K/40K | None | 3B | TPU Pod | 32 | 1024 |
+
 
 ## Webserver  :globe_with_meridians:
 
