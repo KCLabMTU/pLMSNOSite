@@ -134,7 +134,7 @@ To evaluate our model on the independent test set, we have already placed the te
 1. The prediction runtime directly depends on the length of the input sequence. Longer sequences require more time for ProtT5 to generate feature vectors, and consequently, more time is needed for prediction.
 2. In order to tailor the system to your specific requirements, we have ensured that modifying the decision threshold cut-off value is simple and straightforward. Here's what you need to do:
    - Open the `predict.py` file 
-     - Navigate to line `172`
+     - Navigate to line `171`
      - You'll find the current cut-off value is set at `0.5`
      - Adjust this to any preferred cut-off value 
 
