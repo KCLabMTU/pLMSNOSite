@@ -58,8 +58,7 @@ Pratyush, P., Pokharel, S., Saigo, H. et al. pLMSNOSite: an ensemble-based appro
 The corresponding BibTeX:
 ```
 @article{ WOS:000934967300003,
-Author = {Pratyush, Pawel and Pokharel, Suresh and Saigo, Hiroto and Kc, Dukka B.
-   B.},
+Author = {Pratyush, Pawel and Pokharel, Suresh and Saigo, Hiroto and Kc, Dukka B.},
 Title = {pLMSNOSite: an ensemble-based approach for predicting protein
    S-nitrosylation sites by integrating supervised word embedding and
    embedding from pre-trained protein language model},
