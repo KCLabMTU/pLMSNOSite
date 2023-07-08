@@ -55,9 +55,8 @@ You can access the webserver of pLMSNOSite at [kcdukkalab.org/pLMSNOSite/](http:
 ## Cite this article
 Pratyush, P., Pokharel, S., Saigo, H. et al. pLMSNOSite: an ensemble-based approach for predicting protein S-nitrosylation sites by integrating supervised word embedding and embedding from pre-trained protein language model. BMC Bioinformatics 24, 41 (2023). https://doi.org/10.1186/s12859-023-05164-9
 
-The corresponding bibtex:
+The corresponding BibTeX:
 ```
-
 @article{ WOS:000934967300003,
 Author = {Pratyush, Pawel and Pokharel, Suresh and Saigo, Hiroto and Kc, Dukka B.
    B.},
@@ -75,7 +74,6 @@ ISSN = {1471-2105},
 ORCID-Numbers = {Pratyush, Pawel/0000-0002-4210-1200},
 Unique-ID = {WOS:000934967300003},
 }
-
 ```
 
 ## Authors  :writing_hand:
