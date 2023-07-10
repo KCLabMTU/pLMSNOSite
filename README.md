@@ -14,7 +14,7 @@
 <!---
 <img src="images/Screenshot from 2023-06-22 15-32-45.png"/> 
 -->
-<img src="images/ezgif-4-045e116a6a.gif"/> 
+<img src="images/ezgif-4-045e116a6a.gif"/ alt="Animation"> 
 </p>
 
 <p align="center">
