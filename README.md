@@ -11,8 +11,10 @@
  
 ---
 <p align="center">
-<img src="images/Screenshot from 2023-06-22 15-32-45.png"/> 
-</p>
+<!---
+img src="images/Screenshot from 2023-06-22 15-32-45.png"/> 
+-->
+ ![Animation](./ezgif-4-045e116a6a.gif)</p>
 
 <p align="center">
 <a href="https://www.python.org/"><img alt="python" src="https://img.shields.io/badge/Python-3.9.7-blue.svg"/></a>
