@@ -14,8 +14,7 @@
 <!---
 <img src="images/Screenshot from 2023-06-22 15-32-45.png"/> 
 -->
- ![Animation](images/ezgif-4-045e116a6a.gif)
-<img src="iimages/ezgif-4-045e116a6a.gif"/> 
+<img src="images/ezgif-4-045e116a6a.gif"/> 
 </p>
 
 <p align="center">
