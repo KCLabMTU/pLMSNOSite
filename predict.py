@@ -25,7 +25,7 @@ import gc
 define file paths and other parameters
 """
 input_fasta_file = "input/sequence.fasta" # load test sequence
-output_csv_file = "output/results.csv" 
+output_csv_file = "results.csv" 
 model_path = 'models/pLMSNOSite.h5'
 win_size = 37 #window size found using k-fold CV
 
