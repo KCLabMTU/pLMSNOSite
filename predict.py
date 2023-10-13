@@ -161,7 +161,7 @@ for seq_record in tqdm(SeqIO.parse(input_fasta_file, "fasta")):
             prot_pred_test = get_predictions(ProtT5_model, X_test_pt5)
             emb_pred_test = get_predictions(Embedding_model, [X_test_embedding])
             
-            X_stacked_test = pd.concat([emb_pred_test, prot_pred_test],axis=1)
+            X_stacked_test = pd.concat([prot_pred_test,emb_pred_test],axis=1)
 
             # load combined model
             combined_model = load_model(model_path)
