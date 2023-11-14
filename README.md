@@ -4,9 +4,6 @@
 </div>
 
 
-
-
-
 ## Webserver 
 
 You can access the webserver of pLMSNOSite at [kcdukkalab.org/pLMSNOSite/](http://kcdukkalab.org/pLMSNOSite/).
@@ -105,32 +102,6 @@ To evaluate our model on the independent test set, we have already placed the te
 ## Training and other experiments
 1. Find training data at `data/train/` folder
 2. Find all the codes and models related to training at `training_experiments` folder (To be updated).
-
-
-
-## Collaboration  :handshake: 
-<p>
-  <a href="https://www.mtu.edu/">
-    <img src="images/mtu_logo.png" alt="MTU Logo" width="130" height="100">
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.kyushu-u.ac.jp/en/">
-    <img src="images/Kyushu_University_Logo-586x700.png" alt="Kyushu University Logo" width="100" height="110">
-  </a>
-</p>
-
-
-
-## Funding 
-<p>
-  <a href="https://www.nsf.gov/">
-    <img src="images/NSF_Official_logo.svg" alt="NSF Logo" width="110" height="110" style="margin-right: 20px;">
-  </a>
-  <a href="https://www.jsps.go.jp/english/">
-    <img src="images/JSPS-logo.jpg" alt="JSPS Logo" width="180" height="70" style="margin-left: 20px;">
-  </a>
-</p>
-
 
 
 
