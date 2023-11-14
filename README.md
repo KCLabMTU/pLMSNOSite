@@ -4,13 +4,7 @@
 </div>
 
 
- <p align="center">
- Use Transformer-based Protein Language Model (pLM) for prediction of S-nitrosylation(SNO) modification sites in protein sequences
- </p>
- 
 
- 
-</p>
 
 
 ## Webserver 
