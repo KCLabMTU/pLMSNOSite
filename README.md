@@ -86,10 +86,7 @@ transformers==4.18.0
 xgboost==1.5.0
 </code>
 
-## Install Transformers
-```shell
-pip install -q SentencePiece transformers
-```
+
 ## Evaluate pLMSNOSite on Independent Test Set
 To evaluate our model on the independent test set, we have already placed the test sequences and corresponding ProtT5 features in `data/test/` folder. After installing all the requirements, run the following command:
 <br>
