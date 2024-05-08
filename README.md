@@ -3,10 +3,39 @@
 # <span style="color:blue;">pLMSNOSite</span> 
 </div>
 
+<p align="center">
+An ensemble-based approach for prediction of protein S-nitrosylation sites integrating supervised word embedding and embedding from protein language model
+</p>
+
+<p align="center">
+<img src="images/animation.gif"/ alt = "Animation">
+</p>
+
+<p align="center">
+<a href="https://www.python.org/"><img alt="python" src="https://img.shields.io/badge/Python-3.9.7-blue.svg"/></a>
+<a href="https://biopython.org/"><img alt="Bio" src="https://img.shields.io/badge/Bio-1.5.2-brightgreen.svg"/></a>
+<a href="https://matplotlib.org/"><img alt="matplotlib" src="https://img.shields.io/badge/matplotlib-3.5.1-blueviolet.svg"/></a>
+<a href="https://numpy.org/"><img alt="numpy" src="https://img.shields.io/badge/numpy-1.23.5-red.svg"/></a>
+<a href="https://pandas.pydata.org/"><img alt="pandas" src="https://img.shields.io/badge/pandas-1.5.0-yellow.svg"/></a>
+<a href="https://requests.readthedocs.io/en/latest/"><img alt="requests"
+src="https://img.shields.io/badge/requests-2.27.1-blueviolet.svg"/></a>
+<a href="https://scikit-learn.org/"><img alt="scikit_learn" src="https://img.shields.io/badge/scikit_learn-1.2.0-blue.svg"/></a>
+<a href="https://seaborn.pydata.org/"><img alt="seaborn" src="https://img.shields.io/badge/seaborn-0.11.2-lightgrey.svg"/></a>
+<a href="https://www.tensorflow.org/"><img alt="tensorflow" src="https://img.shields.io/badge/TensorFlow-2.9.1-orange.svg"/></a>
+<a href="https://pytorch.org/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-1.11.0-orange.svg"/></a>
+<a href="https://tqdm.github.io/"><img alt="tqdm" src="https://img.shields.io/badge/tqdm-4.63.0-blue.svg"/></a>
+<a href="https://huggingface.co/transformers/"><img alt="Transformers" src="https://img.shields.io/badge/Transformers-4.18.1-yellow.svg"/></a>
+<a href="https://xgboost.readthedocs.io/en/stable/"><img alt="XGBoost" src="https://img.shields.io/badge/XGBoost-1.5.0-blue.svg"/></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/KCLabMTU/pLMSNOSite/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KCLabMTU/pLMSNOSite.svg?style=flat&color=blue"></a>
+<a href="https://github.com/KCLabMTU/pLMSNOSite/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/KCLabMTU/pLMSNOSite.svg?style=flat&color=blue"></a>
+<a href="https://github.com/KCLabMTU/pLMSNOSite/pulls"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/KCLabMTU/pLMSNOSite.svg?style=flat&color=blue"></a>
+</p>
 
 ## Webserver 
-
-You can access the webserver of pLMSNOSite at [kcdukkalab.org/pLMSNOSite/](http://kcdukkalab.org/pLMSNOSite/).
+You can access the webserver of pLMSNOSite at [kcdukkalab.org/pLMSNOSite/](http://kcdukkalab.org/pLMSNOSite/). This web-based tool allows you to submit your FASTA file containing sequences, and the pLMSNOSite model will process your sequences and provide predictions.
 
 ## Cite this article
 Pratyush, P., Pokharel, S., Saigo, H. et al. pLMSNOSite: an ensemble-based approach for predicting protein S-nitrosylation sites by integrating supervised word embedding and embedding from pre-trained protein language model. BMC Bioinformatics 24, 41 (2023). https://doi.org/10.1186/s12859-023-05164-9
@@ -54,7 +83,8 @@ git clone git@github.com:KCLabMTU/pLMSNOSite.git
 ### Download the Repository
 Alternatively, if you don't have Git or prefer not to use it, you can download the repository directly from GitHub. Click [here](https://github.com/KCLabMTU/pLMSNOSite/archive/refs/heads/main.zip) to download the repository as a zip file.
 
-Note: In the 'Download the Repository' section, the link provided is a direct download link to the repository's `main` branch as a zip file. This may differ if your repository's default branch is named differently.
+> <kbd>**Note**:</kbd>
+> In the 'Download the Repository' section, the link provided is a direct download link to the repository's <kbd>main</kbd> branch as a zip file. This may differ if your repository's default branch is named differently.
 
 ## Install Libraries
 
@@ -67,22 +97,19 @@ pip install -r requirements.txt
 ```
 
 Required libraries and versions: 
-<code>
-Bio==1.5.2
-keras==2.9.0
-matplotlib==3.5.1
-numpy==1.23.5
-pandas==1.5.0
-requests==2.27.1
-scikit_learn==1.2.0
-seaborn==0.11.2
-tensorflow==2.9.1
-torch==1.11.0
-tqdm==4.63.0
-transformers==4.18.0
-xgboost==1.5.0
-</code>
-
+<code>Bio==1.5.2</code> <br>
+<code>keras==2.9.0</code> <br>
+<code>matplotlib==3.5.1</code> <br>
+<code>numpy==1.23.5</code> <br>
+<code>pandas==1.5.0</code> <br>
+<code>requests==2.27.1</code> <br>
+<code>scikit_learn==1.2.0</code> <br>
+<code>seaborn==0.11.2</code> <br>
+<code>tensorflow==2.9.1</code> <br>
+<code>torch==1.11.0</code> <br>
+<code>tqdm==4.63.0</code> <br>
+<code>transformers==4.18.0</code> <br>
+<code>xgboost==1.5.0</code> <br>
 
 ## Evaluate pLMSNOSite on Independent Test Set
 To evaluate our model on the independent test set, we have already placed the test sequences and corresponding ProtT5 features in `data/test/` folder. After installing all the requirements, run the following command:

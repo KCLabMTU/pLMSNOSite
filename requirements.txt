@@ -5,6 +5,9 @@ numpy==1.23.2
 pandas==1.4.1
 scikit_learn==1.1.2
 seaborn==0.11.2
+sentencepiece
 tensorflow==2.9.1
+torch==1.11.0
 tqdm==4.63.0
-~umpy==1.19.0
+transformers==4.18.0
+xgboost==1.5.0
